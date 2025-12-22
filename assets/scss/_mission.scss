@@ -1,0 +1,33 @@
+.mission_section {
+	padding: 115px 0px 105px;
+	.mission_content {
+		.section-title-area {
+			padding-top: 50px;
+			padding-bottom: 0;
+		}
+	}
+	.mission_btn {
+		color: #fff;
+		width: 200px;
+		height: 60px;
+		font-weight: 700;
+		line-height: 60px;
+		border-radius: 50px;
+		margin: 15px 0px 0px 15px;
+		background-color: $primary-color;
+	}
+	article {
+		max-width: 440px;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+	.hover-btn:before,
+	.hover-btn:after {
+		background-color: $secondary-color;
+	}
+}
+.mission_client {
+	.client-list {
+		padding: 100px 120px 90px;
+	}
+}

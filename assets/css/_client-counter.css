@@ -1,0 +1,90 @@
+.client_counter_section .banner_parallax,
+.client_counter_section2 .banner_parallax {
+  background-image: url(../img/background/cbg.png);
+  padding: 210px 0px 120px 0px;
+  overflow: visible; }
+
+.client_counter_section .background-overlay,
+.client_counter_section2 .background-overlay {
+  background-color: rgba(2, 17, 44, .9); }
+
+.client_counter_section .container,
+.client_counter_section2 .container {
+  max-width: 1550px; }
+
+.client_counter_section .client_counterup .counter_up,
+.client_counter_section2 .client_counterup .counter_up {
+  margin-right: 25px;
+  position: relative; }
+  .client_counter_section .client_counterup .counter_up .icon-bg,
+  .client_counter_section2 .client_counterup .counter_up .icon-bg {
+    left: 0;
+    top: 50%;
+    right: 0;
+    z-index: -1;
+    position: absolute;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%); }
+    .client_counter_section .client_counterup .counter_up .icon-bg span,
+    .client_counter_section2 .client_counterup .counter_up .icon-bg span {
+      color: #1a2a49;
+      font-size: 90px; }
+
+.client_counter_section .client_counterup .circle,
+.client_counter_section .client_counterup .circle_2,
+.client_counter_section2 .client_counterup .circle,
+.client_counter_section2 .client_counterup .circle_2 {
+  width: 210px;
+  height: 210px;
+  position: relative;
+  display: inline-block; }
+  .client_counter_section .client_counterup .circle strong,
+  .client_counter_section .client_counterup .circle_2 strong,
+  .client_counter_section2 .client_counterup .circle strong,
+  .client_counter_section2 .client_counterup .circle_2 strong {
+    left: 0;
+    right: 0;
+    top: 50%;
+    color: #fff;
+    font-size: 80px;
+    font-weight: 500;
+    text-align: center;
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%); }
+    .client_counter_section .client_counterup .circle strong span,
+    .client_counter_section .client_counterup .circle_2 strong span,
+    .client_counter_section2 .client_counterup .circle strong span,
+    .client_counter_section2 .client_counterup .circle_2 strong span {
+      font-size: 18px; }
+
+.client_counter_section .client_counterup .client_countertext,
+.client_counter_section2 .client_counterup .client_countertext {
+  padding-top: 30px; }
+  .client_counter_section .client_counterup .client_countertext h3,
+  .client_counter_section2 .client_counterup .client_countertext h3 {
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 25px; }
+  .client_counter_section .client_counterup .client_countertext p,
+  .client_counter_section2 .client_counterup .client_countertext p {
+    color: #a7b5cf;
+    overflow: hidden;
+    max-width: 240px; }
+
+.circle canvas {
+  max-width: 100%;
+  max-height: 100%; }
+
+.client_counter_section2 .banner_parallax {
+  padding-top: 250px; }
+
+.client_counter_section2 .background-overlay {
+  background-color: rgba(219, 6, 45, .9); }
+
+.client_counter_section2 .client_counterup .counter_up .icon-bg span {
+  color: #c41837; }
+
+.client_counter_section2 .client_counterup .client_countertext p {
+  color: #fff; }

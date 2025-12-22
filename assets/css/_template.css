@@ -1,0 +1,15 @@
+/*=========
+Font load
+===========*/
+@import url("https://fonts.googleapis.com/css?family=Adamina|Roboto:400,500,700&display=swap");
+/*=========
+Color Code
+===========*/
+.primary-color {
+  color: #f3525a; }
+
+.secondary-color {
+  color: #3763ec; }
+
+.fourth-color {
+  color: #152440; }

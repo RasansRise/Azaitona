@@ -1,0 +1,72 @@
+.get-touch-section {
+	background-color: #fff;
+}
+.get-touch-icon-text {
+	border: 2px solid #e4e4e4;
+	padding: 50px 30px 45px 30px;
+	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+	.get-touch-icon {
+		margin-bottom: 35px;
+		span {
+			font-size: 90px;
+			color: $primary-color;
+		}
+	}
+	.get-touch-text {
+		h3 {
+			font-size: 30px;
+			padding-bottom: 20px;
+		}
+		span {
+			display: block;
+			font-size: 18px;
+			margin-bottom: 5px;
+		}
+	}
+	&:hover {
+		transform: translateY(-5px);
+		border: 2px solid $primary-color;
+		box-shadow: 0 2px 30px rgba(0, 0, 0, 0.1);
+	}
+}
+.contact_section {
+	padding: 115px 0px;
+	.contact_map iframe {
+		top: 0;
+		left: 0;
+		width: 100% !important;
+		height: 810px !important;
+	}
+	.get-touch-content {
+		margin-bottom: 115px;
+	}
+}
+.contact_page_form,
+.comment_formfield {
+	.get-quote-section .section-title-area {
+		padding-bottom: 130px;
+	}
+	.quote_form {
+		max-width: 1030px;
+		margin: 0 auto;
+		label {
+			text-transform: uppercase;
+		}
+		.icon-bg {
+			opacity: 1;
+			i {
+				color: $primary-color;
+			}
+		}
+		.sub-button button {
+			border-radius: 50px;
+			background-color: $primary-color;
+		}
+		.hover-btn {
+			&:before,
+			&:after {
+				background-color: $secondary-color;
+			}
+		}
+	}
+}

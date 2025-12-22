@@ -1,0 +1,70 @@
+.how-work-section,
+.get-touch-section {
+	padding: 115px 0px 120px;
+	background-color: #f6f6f6;
+	.section-title-area {
+		padding-bottom: 75px;
+	}
+	.section-title .title-head {
+		position: inherit;
+		bottom: inherit;
+	}
+}
+.how-work-icon-text {
+	padding: 70px 50px;
+	.how-work-icon {
+		margin-bottom: 25px;
+		span {
+			z-index: 1;
+			font-size: 85px;
+			position: relative;
+			color: $primary-color;
+		}
+		.number-bg {
+			left: 0;
+			right: 0;
+			z-index: 0;
+			top: -10px;
+			color: #f2f2f2;
+			font-size: 130px;
+			font-weight: 900;
+			position: absolute;
+			font-family: $heading;
+			animation: mover 1s infinite  alternate;
+		}
+	}
+	.work-meta {
+		font-size: 14px;
+		font-weight: 700;
+	}
+	h3 {
+		font-size: 26px;
+		padding: 10px 0 20px 0;
+	}
+}
+.how-work-icon-text.primary-bg,
+.how-work-icon-text.body-color-bg  {
+	.how-work-icon {
+		span {
+			color: #fff;
+		}
+		.number-bg {
+			color: #f6626a;
+		}
+	}
+	h3,
+	.work-meta,
+	p {
+		color: #fff;
+	}
+}
+.how-work-icon-text.body-color-bg {
+	.how-work-icon {
+		span {
+			color: $primary-color;
+		}
+		.number-bg {
+			color: #1d2e4d;
+		}
+	}
+}

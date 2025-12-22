@@ -1,0 +1,82 @@
+.career_section {
+	padding: 120px 0px;
+	.career_list_item {
+		margin-right: 30px;
+		border: 2px solid #eaeaea;
+		.course_list_item {
+			width: 100%;
+			padding: 35px;
+			transition: .3s all ease-in-out;
+			border-bottom: 2px solid #eaeaea;
+			&:hover {
+				box-shadow: 0px 16px 32px 0px rgba(21, 36, 64, 0.1);
+				.apply_btn {
+					color: #fff;
+				}
+				.hover-btn:before,
+				.hover-btn:after {
+					width: 100%;
+				}
+			}
+		}
+		&:last-child {
+			border-bottom: none;
+		}
+	}
+	.career_titletag_meta {
+		width: 73%;
+		float: left;
+		.time_period {
+			font-size: 12px;
+			font-weight: 700;
+			padding: 5px 12px;
+			border-radius: 20px;
+			color: $primary-color;
+			font-family: $body-font;
+			background-color: #ffeced;
+		}
+		h3 {
+			padding-bottom: 12px;
+			a {
+				font-size: 30px;
+			}
+		}
+		.career_meta {
+			font-size: 14px;
+			i {
+				color: $primary-color;
+				margin-right: 5px;
+			}
+			li {
+				font-weight: 700;
+				margin-right: 20px;
+			}
+		}
+	}
+	.apply_btn {
+		height: 60px;
+		float: right;
+		width: 175px;
+		font-weight: 700;
+		line-height: 60px;
+		border-radius: 50px;
+		color: $primary-color;
+		border: 2px solid #eaeaea;
+		&:hover {
+			color: #fff;
+		}
+	}
+	.service_w_img {
+		.apply_btn {
+			left: 0;
+			right: 0;
+			top: 50%;
+			margin: 0 auto;
+			position: absolute;
+			color: #fff;
+			transform: translateY(-50%);
+			border: 2px solid $primary-color;
+			background-color: $primary-color;
+		}
+	}
+}

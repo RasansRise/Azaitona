@@ -1,0 +1,6 @@
+.about-us-section .section-title .title-head {
+  position: inherit; }
+  .about-us-section .section-title .title-head p {
+    margin-left: 90px; }
+    .about-us-section .section-title .title-head p:after {
+      display: none; }

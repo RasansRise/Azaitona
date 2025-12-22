@@ -1,0 +1,133 @@
+.project-section {
+	padding-bottom: 120px;
+	background-image: url(../img/project/pbg.png);
+}
+.project-section.team-project{
+	background-image: none;
+	padding-bottom: 60px;
+} 
+.project-section.background-style {
+	background-position: bottom -485px right -50px;
+}
+.project-text {
+	right: 0;
+	left: 0px;
+	bottom: 0px;
+	margin: 0 auto;
+	max-width: 650px;
+	background-color: #fff;
+	opacity: 0;
+	visibility: hidden;
+	transform: scaleY(0);
+	padding: 40px 40px 45px 40px;
+	border-bottom: 3px solid $primary-color;
+	transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+	transition-delay: .5s;
+	box-shadow: 0px 16px 32px 0px rgba(21, 36, 64, 0.04);
+	.project_more {
+		top: 50%;
+		right: 40px;
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+		border-radius: 100%;
+		border: 1px solid #e3e3e3;
+		transform: translateY(-50%);
+		transition: .3s all ease-in-out;
+		a {
+			transition: none;
+		}
+		&:hover {
+			color: #fff;
+			background-color: $primary-color;
+		}
+	}
+}
+#project_slide {
+	.owl-stage-outer {
+		padding-bottom: 100px;
+	}
+	.owl-nav .owl-prev, 
+	.owl-nav .owl-next {
+		top: 40%;
+		border: none;
+		transform: translateY(-40%) translatex(-15%);
+	}
+	.owl-nav .owl-prev {
+		left: 15%;
+	}
+	.owl-nav .owl-next {
+		right: 15%
+	}
+	.owl-item.active.center {
+		.project-slider-item {
+			.project-text {
+				opacity: 1;
+				bottom: -75px;
+				visibility: visible;
+				transform: scaleY(1);
+			}
+		}
+	}
+}
+.client-list {
+	padding: 85px 120px 0px;
+}
+.client-section {
+	background-color: $secondary-color;
+	.client-list {
+		padding: 105px 120px;
+	}
+}
+
+.nio-title {
+	font-size: 30px;
+	padding-bottom: 12px;
+}
+.nio-meta {
+	font-weight: 700;
+	padding-left: 80px;
+	&:after {
+		left: 0;
+		top: 7px;
+		content: '';
+		height: 3px;
+		width: 60px;
+		position: absolute;
+		background-color: #f3525a;
+	}
+}
+#project_slide {
+	.owl-stage-outer {
+		padding-bottom: 100px;
+	}
+	.owl-nav .owl-prev, 
+	.owl-nav .owl-next {
+		top: 40%;
+		border: none;
+		transform: translateY(-40%) translatex(-15%);
+	}
+	.owl-nav .owl-prev {
+		left: 15%;
+	}
+	.owl-nav .owl-next {
+		right: 15%
+	}
+	.owl-item.active.center {
+		.project-slider-item {
+			&:hover {
+				.project-text {
+					left: 0;
+					opacity: 1;
+					visibility: visible;
+				}
+				.nio-meta {
+					padding-left: 80px;
+				}
+				// .nio-meta:after {
+				// 	width: 60px;
+				// }
+			}
+		}
+	}
+}

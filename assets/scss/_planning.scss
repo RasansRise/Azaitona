@@ -1,0 +1,175 @@
+.planning-section {
+	overflow: visible;
+	.section-left-title .title-head {
+		bottom: 50px;
+		position: relative;
+	}
+	.section-title-area {
+		padding-bottom: 0;
+	}
+	.tab-content {
+		box-shadow: 0px 16px 32px 0px rgba(32, 85, 125, 0.06);
+	}
+	.tab-pane {
+		margin-top: 30px;
+		transition: .3s all ease-in-out;
+	}
+	.tab-pane.fade.active.show {
+		margin-top: 0;
+	}
+	.planning_content {
+		z-index: 1;
+		bottom: -50px;
+		position: relative;
+	}
+}
+.planning_tab {
+	width: 320px;
+	padding: 10px;
+	border-radius: 50px;
+	position: absolute;
+	top: -130px;
+	right: 0;
+	border: 1px solid #e5e5e5;
+	.nav {
+		display: inherit;
+		border: none;
+	}
+	.nav-tabs .nav-link:focus, 
+	.nav-tabs .nav-link:hover {
+		border: none;
+	}
+	.nav-tabs .nav-item {
+		margin-bottom: 0;
+	}
+	.nav-tabs .nav-link {
+		border: none;
+		font-weight: 700;
+		padding: 20px 40px 15px;
+		border-radius: 50px;
+
+	}
+	.nav-tabs .nav-link.active {
+		border: none;
+		color: #fff;
+		background: $secondary-color;
+		box-shadow: 0px 0px 25px 5px rgba(55, 99, 236, 0.4);
+	}
+}
+
+.planning_area {
+	padding: 65px 45px 70px 45px;
+	background-color: #fff;
+	.planning_title_text {
+		h2 {
+			font-size: 24px;
+			padding: 10px 0px 20px 0px;
+		}
+		p {
+			line-height: 26px;
+		}
+	}
+	.planning_price {
+		font-weight: 700;
+		margin-bottom: 10px;
+		span {
+			font-size: 24px;
+		}
+		strong {
+			font-size: 60px;
+			color: $secondary-color;
+		}
+	}
+	.planning_btn {
+		height: 60px;
+		width: 200px;
+		margin: 0 auto;
+		font-weight: 700;
+		overflow: hidden;
+		line-height: 60px;
+		margin-bottom: 45px;
+		border: 2px solid #e8ebec;
+	}
+	.planning_btn.hover-btn {
+		&:before,
+		&:after {
+			background-color: $secondary-color;
+		}
+		&:hover {
+			border: 2px solid $secondary-color;
+			color: #fff;
+		}
+	}
+	.planning_icon {
+		span {
+			font-size: 120px;
+			position: relative;
+			z-index: 2;
+			color: $secondary-color;
+			&:after {
+				z-index: -1;
+				left: -5px;
+				content: '';
+				height: 60%;
+				width: 100%;
+				bottom: 15px;
+				position: absolute;
+				background-color: #eef3ff;
+			}
+		}
+		.flaticon-chart {
+			&:after {
+				left: 0;
+				width: 120px;
+				height: 120px;
+				border-radius: 100%;
+			}
+		}
+		
+	}
+}
+.planning_area.moost_popular {
+	margin-top: -20px;
+	padding: 85px 45px 90px 45px;
+	border-top: 5px solid $secondary-color;
+	box-shadow: 0px 16px 32px 0px rgba(32, 85, 125, 0.06);
+}
+.planning-section.planning_service {
+	padding-bottom: 120px;
+	.section-title-area {
+		padding-bottom: 55px;
+	}
+	.tab-content {
+		box-shadow: none;
+	}
+	.planning_tab .nav-tabs .nav-link.active {
+		background: $primary-color;
+		box-shadow: 0px 14px 28px 0px rgba(243, 82, 90, 0.4);
+	}
+	.planning_area.moost_popular {
+		border-top: 5px solid $primary-color;
+	}
+	.planning_area .planning_price strong {
+		color: $primary-color;
+	}
+	.planning_area .planning_icon span {
+		color: $primary-color;
+	}
+	.planning_area .planning_icon span:after {
+		background-color: #ffe1e5;
+	}
+	.planning_content {
+		position: inherit;
+		bottom: inherit;
+	}
+	.planning_area {
+		box-shadow: 0px 16px 32px 0px rgba(32, 85, 125, .06)
+	}
+	.planning_area .planning_btn.hover-btn:before,
+	.planning_area .planning_btn.hover-btn:after {
+		background-color: $primary-color;
+	}
+	.planning_area .planning_btn.hover-btn:hover {
+		border: 2px solid $primary-color;
+	}
+}

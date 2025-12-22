@@ -1,0 +1,54 @@
+.breadcrumb_section {
+	background-image: url(../img/background/bbg.jpg);
+	padding: 290px 0px 150px 0px;
+	.background-overlay {
+		background-color: rgba(0, 9, 25, 0.8);
+	}
+	&:after {
+		top: 0;
+		right: 0;
+		content: '';
+		width: 30%;
+		height: 100%;
+		position: absolute;
+		background-color: $primary-color;
+	}
+	.breadcrumb_list {
+		z-index: 1;
+		position: relative;
+		.breadcrumb_title {
+			color: #fff;
+			font-size: 60px;
+			padding-bottom: 15px;
+		}
+		.breadcrumb {
+			padding-left: 80px;
+			position: relative;
+			background-color: transparent;
+			li {
+				color: #fff;
+				position: relative;
+				padding-right: 15px;
+			}
+			&:before {
+				left: 0;
+				top: 10px;
+				content: '';
+				height: 2px;
+				width: 60px;
+				position: absolute;
+				background-color: #f3525a;
+			}
+		}
+		.breadcrumb-item+.breadcrumb-item::before {
+			top: 6px;
+			left:  -7px;
+			width: 1px;
+			content: '';
+			padding: 0;
+			height: 12px;
+			position: absolute;
+			background-color: #fff;
+		}
+	}
+}

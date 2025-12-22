@@ -1,0 +1,46 @@
+/*=========
+Font load
+===========*/
+@import url('https://fonts.googleapis.com/css?family=Adamina|Roboto:400,500,700&display=swap');
+
+$body-font: 'Roboto';
+$heading: 'Adamina';
+
+/*=========
+Color Code
+===========*/
+$body-color: #242527;
+$primary-color: #f3525a;
+$primary-color2: #da062c;
+$secondary-color: #3763ec;
+$fourth-color: #152440;
+.primary-color{color: $primary-color}
+.secondary-color{color: $secondary-color}
+.fourth-color{color: $fourth-color}
+@-webkit-keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}

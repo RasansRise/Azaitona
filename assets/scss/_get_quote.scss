@@ -1,0 +1,138 @@
+.get-quote-section {
+	.quote_content {
+		padding-bottom: 85px;
+	}
+	.section-left-title .title-head {
+		bottom: 50px;
+		position: relative;
+	}
+	.section-title-area {
+		padding-bottom: 0;
+	}
+	.section-title .title-bg:after {
+		height: 115%;
+	}
+}
+.quote_form {
+	max-width: 740px;
+	label {
+		font-weight: 700;
+		margin-bottom: 12px;
+	}
+	input,
+	textarea {
+		width: 100%;
+		border: none;
+		height: 60px;
+		padding: 30px;
+		margin-bottom: 30px;
+		background-color: #f7f7f7;
+		&:focus {
+			border: 1px solid $secondary-color;
+		}
+	}
+	textarea {
+		height: 220px;
+	}
+	.contact-info {
+		position: relative;
+	}
+	.icon-bg {
+		top: 55px;
+		right: 30px;
+		position: absolute;
+		opacity: .5;
+		i {
+			color: $secondary-color;
+		}
+	}
+	.sub-button {
+		button {
+			color: #fff;
+			border: none;
+			font-weight: 700;
+			padding: 20px 45px 18px;
+			background-color: $secondary-color;
+		}
+	}
+}
+.quote_author {
+	top: -145px;
+	padding: 75px 42px;
+	position: relative;
+	background-color: #fff;
+	border: 2px solid #e7e7e7;
+	.author-pic {
+		margin-bottom: 35px;
+	}
+	.member-name {
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	p {
+		margin-bottom: 20px;
+	}
+	span {
+		font-weight: 700;
+		a {
+			font-size: 24px;
+			color: $secondary-color;
+		}
+	}
+}
+.quote_content {
+	margin: 0 15px;
+	padding-bottom: 120px;
+	.quote_title {
+		left: 0;
+		right: 0;
+		top: 50%;
+		max-width: 530px;
+		margin: 0 auto;
+		position: absolute;
+		transform: translateY(-50%);
+		.section-title-area {
+			padding-bottom: 0;
+		}
+		.title-head {
+			h3 {
+				font-size: 40px;
+			}
+		}
+	}
+	.quote_mail {
+		background-image: url(../img/background/qe.jpg);
+		padding: 56px 0px;
+		.background-overlay {
+			background-color: rgba(219, 6, 45, 0.9);
+		}
+		.quote_mail_add {
+			z-index: 1;
+			position: relative;
+			color: #fff;
+			i {
+				font-size: 50px;
+			}
+			h3 {
+				font-size: 30px;
+				padding: 10px 0px 5px 0px;
+			}
+			p {
+				font-weight: 700;
+			}
+		}
+	}
+}
+.home-4 {
+	.quote_mail { 
+		.background-overlay {
+			background-color: rgba(243, 83, 91, 0.90);
+		}
+	}
+	.slider_content2 .nio-btn {
+		background-color: $primary-color;
+	}
+	.client_counter_section2 .background-overlay {
+		background-color: rgba(243, 83, 91, 0.90);
+	}
+}
