@@ -3925,6 +3925,9 @@ select:visited {
       padding-top: 25px;
       display: inline-block; }
     .market_value_section .market_content .market-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       width: 70px;
       height: 70px;
       line-height: 75px;
@@ -3933,6 +3936,9 @@ select:visited {
       background-color: #fff;
       -webkit-transition: .5s all ease-in-out;
       transition: .5s all ease-in-out; }
+      .market-icon img{
+        width:40px;
+      }
       .market_value_section .market_content .market-icon i {
         font-size: 24px;
         color: #31401d; }
