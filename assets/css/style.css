@@ -2053,6 +2053,7 @@ select:visited {
 
 .about_section_2 {
   padding-bottom: 165px;
+  padding-top:80px;
   overflow: visible; }
   .about_section_2 .section-title-area {
     padding-bottom: 5px; }
@@ -5215,7 +5216,7 @@ select:visited {
     left: inherit;
     bottom: inherit;
     position: inherit;
-    margin-top: 30px; }
+    margin-top: -150px; }
   .home-2 .brand-logo {
     width: 230px; }
   .award-img {
