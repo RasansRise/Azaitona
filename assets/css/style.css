@@ -13,7 +13,7 @@ theme.
 
 CSS Table of content:-
 
-1. Global Area 
+1. Global Area
 2. Header Section
 3. Slider Section
 4. Service Section
@@ -102,15 +102,15 @@ body {
 
 ::-moz-selection {
   color: #ffffff;
-  background-color: #6e3ebf; }
+  background-color: #31401d; }
 
 ::selection {
   color: #ffffff;
-  background-color: #6e3ebf; }
+  background-color: #31401d; }
 
 ::-moz-selection {
   color: #ffffff;
-  background-color: #6e3ebf; }
+  background-color: #31401d; }
 
 .container {
   max-width: 1200px; }
@@ -228,7 +228,7 @@ select:visited {
   font-size: 200px;
   font-weight: 700;
   line-height: .8;
-  font-family: "Helvetica AR"; }  
+  font-family: "Helvetica AR"; }
   .section-title .title-bg:after {
     position: absolute;
     content: '';
@@ -483,7 +483,7 @@ select:visited {
 .home-3 .navbar-nav,
 .home-4 .navbar-nav {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
 }
 
 .home-1 .main-menu-header,
@@ -701,7 +701,7 @@ select:visited {
           box-shadow: 0px 16px 32px 0px #31401d40; }
 
 .home-2 .header_contact {
-  width: 48%;
+  width:55%;
   float: left;
   position: relative;
   padding: 10px 0px 10px 250px;
@@ -3789,13 +3789,13 @@ select:visited {
 /*----------------------------------------------------*/
 .client_counter_section .banner_parallax,
 .client_counter_section2 .banner_parallax {
-  background-image: url(../img/background/cbg.png);
+  background-image: url(../img/Home/Banner2.webp);
   padding: 175px 0px 115px 0px;
   overflow: visible; }
 
 .client_counter_section .background-overlay,
 .client_counter_section2 .background-overlay {
-  background-color: rgb(34 31 31 / 97%); }
+  background-color: rgb(34 31 31 / 70%); }
 
 .client_counter_section .container,
 .client_counter_section2 .container {
@@ -3898,7 +3898,7 @@ select:visited {
 /*----------------------------------------------------*/
 .market_value_section {
   padding: 110px 0px 0px 0px;
-  background-image: url(../img/background/mbg.png); }
+     }
   .market_value_section .container {
     max-width: 1300px; }
   .market_value_section .section-title-area {
@@ -3913,7 +3913,7 @@ select:visited {
   .market_value_section .section-title .title-head p:before {
     background-color: #fff; }
   .market_value_section .background-overlay {
-    background-color: rgb(50 64 33 / 90%); }
+    background-color: rgb(50 64 33 / 100%); }
   .market_value_section .market_value_area {
     padding-top: 80px; }
   .market_value_section .market_content {
@@ -4974,7 +4974,7 @@ select:visited {
   .home-2 .main-header.second_header {
     height: 90px;
     background-color: #31401d; }
- 
+
   .home_slide2 {
     padding-top: 0px; }
   .second_header.f-nav {
