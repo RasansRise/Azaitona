@@ -2,12 +2,10 @@
 	<html lang="ar" dir="rtl">
 	<head>
 		<meta charset="UTF-8">
-		<title>Contact</title>
-		<meta name="description" content="NioBis - Corporate Business HTML Template">
-		<meta name="keywords" content="accountant, advisor, agency, business, clean, company, consulting, corporate, creative, finance, financial, insurance, modern, portfolio, startup">
-		<meta name="author" content="themexriver">
+		<title>الزيتونة - تواصل معنا</title>
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
 
 		<link rel="stylesheet" href="assets/css/owl.carousel.css">
 		<link rel="stylesheet" href="assets/css/fontawesome-all.css">
@@ -230,54 +228,57 @@
 						<!-- /section title -->
 						<div class="quote_content">
 							<div class="quote_form">
-								<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+								<form id="contact_form" action="mail.php" method="POST" enctype="multipart/form-data">
 									<div class="row">
 										<div class="col-md-6">
 											<div class="contact-info">
 												<!-- <label>الاسم</label> -->
-												<input  name="name" type="text" placeholder="الاسم">
-												<div class="icon-bg">
-													<i class="far fa-user"></i>
-												</div>
+												<input class="required"  name="name" type="text"  placeholder="الاسم*">
+												<p class="error"></p>
 											</div>
 										</div>
 										<div class="col-md-6">
 											<div class="contact-info">
 												<!-- <label>Enter your email</label> -->
-												<input class="name" name="Email" type="email" placeholder="البريد الالكتروني">
-												<div class="icon-bg">
-													<i class="far fa-envelope"></i>
-												</div>
+												<input class="required" name="email"  type="text" placeholder="البريد الالكتروني*">
+												<p class="error"></p>
 											</div>
 										</div>
-									</div>
-									<div class="row">
 										<div class="col-md-6">
 											<div class="contact-info">
 												<!-- <label>الاسم</label> -->
-												<input  name="name" type="text" placeholder="اسم الشركة">
-												<div class="icon-bg">
-													<i class="far fa-user"></i>
-												</div>
+												<input name="name" type="company" placeholder="اسم الشركة">
+												<p class="error"></p>
 											</div>
 										</div>
 										<div class="col-md-6">
 											<div class="contact-info">
 												<!-- <label>Enter your email</label> -->
-												<input class="name" name="Email" type="text" placeholder="رقم الهاتف">
-												<div class="icon-bg">
-													<i class="far fa-envelope"></i>
-												</div>
+												<input class="required" name="phone"  type="text" placeholder="رقم الهاتف*">
+												<p class="error"></p>
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="contact-info">
+												<!-- <label>Enter your email</label> -->
+												<select class="required" name="inqury" >
+													<option value="" disabled selected hidden  >اختر نوع الاستفسار*</option>
+													<option value="استفسار عن المنتجات">استفسار عن المنتجات</option>
+													<option value="طلب عرض سعر">طلب عرض سعر</option>
+													<option value="شراكة / توزيع">شراكة / توزيع</option>
+													<option value="شراكة / توزيع">أخرى</option>
+												</select>
+												<p class="error"></p>
 											</div>
 										</div>
 									</div>
+									
 									<div class="contact-info">
 										<!-- <label>Enter your message</label> -->
 										<textarea id="message" name="message" placeholder="رسالتك"></textarea>
-										<div class="icon-bg">
-											<i class="far fa-edit"></i>
-										</div>
+										
 									</div>
+									<p class="message"></p>
 									<div class="sub-button text-center text-capitalize">
 										<button class="hover-btn" type="submit" value="Submit">ارسال</button> 
 									</div> 
@@ -295,143 +296,64 @@
 		
 	<!-- Start of footer section
 		============================================= -->
-		<footer id="footer-area" class="footer-section">
+		<footer id="footer-area" class="footer-section background-style relative-position">
+
 			<div class="container">
-				<div class="newslatter-wrap">
-					<div class="row">
-						<div class="col-md-3">
-							<div class="newslatter-logo">
-								<a href="#"><img src="assets/img/logo/f-logo.png" alt="logo"></a>
-							</div>
-						</div>
-						<div class="col-md-9">
-							<div class="newslatter-form float-right relative-position">
-								<form action="#">
-									<input class="email" name="email" type="email" placeholder="Enter your email address">
-									<div class="nws-button position-absolute text-capitalize">
-										<button class="hover-btn" type="submit" value="Submit">Subscribe Now</button> 
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
 				<div class="footer-widget-wrap">
 					<div class="row">
 						<div class="col-md-3 col-sm-6">
 							<div class="site-widget headline pera-content">
-								<h3 class="widget-title">About us</h3>
+								<a href="#"><img src="assets/img/logo.webp" alt="logo"></a>
 								<p>
-									Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tem por incididunt ut labore et dolore magna aliqua. Ut enim ad, quis nostrud exercitation ullamco laboris.
+									شركة الزيتونة للصناعات البلاستيكية تأسست عام 2010 لإنتاج أنابيب الري والسباكة والمنتجات الزراعية وفق أعلى المواصفات الألمانية، وتوفر حلول ري حديثة ومستدامة بجودة عالية.
 								</p>
-								<div class="opening-time">
-									<div class="opening-time-icon float-left">
-										<span class="flaticon-calendar"></span>
-									</div>
-									<h3 class="widget-title">Opening Hours</h3>
-									<div class="time-schedule">
-										<span>Mon - Sat 8:00 - 17:30,</span>
-										<span>Sunday - CLOSED</span>
-									</div>
-								</div>
+
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6">
 							<div class="site-widget headline footer-menu-widget pera-content">
-								<h3 class="widget-title">Our Services</h3>
+								<h3 class="widget-title">الروابط السريعة</h3>
 								<div class="footer-menu ul-li-block">
 									<ul>
-										<li><a href="#">Advanced Analytics</a></li>
-										<li><a href="#">Change Management</a></li>
-										<li><a href="#">Corporate Finance</a></li>
-										<li><a href="#">Customer Strategy & Marketing</a></li>
-										<li><a href="#">Information Technology</a></li>
-										<li><a href="#">Product Development</a></li>
+										<li><a href="#">الرئيسية</a></li>
+										<li><a href="#">عن الشركة</a></li>
+										<li><a href="#">المنتجات</a></li>
+										<li><a href="#">القطاعات</a></li>
+										<li><a href="#">العملاء</a></li>
+										<li><a href="#">تواصل معنا</a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6">
-							<div class="site-widget headline pera-content">
-								<h3 class="widget-title">Our Services</h3>
-								<div class="latest-blog-widget">
-									<div class="blog-img-content">
-										<div class="blog-img nioimage_hover">
-											<img src="assets/img/blog/bl1.jpg" alt="">
-										</div>
-										<div class="blog-text headline">
-											<span class="blog-meta"><i class="fas fa-calendar-alt"></i> 10th May 2020</span>
-											<h3> <a href="#">Chemical Engineering
-											Projects For All.</a></h3>
-										</div>
-									</div>
-									<!-- /blog post -->
-									<div class="blog-img-content">
-										<div class="blog-img nioimage_hover">
-											<img src="assets/img/blog/bl2.jpg" alt="">
-										</div>
-										<div class="blog-text headline">
-											<span class="blog-meta"><i class="fas fa-calendar-alt"></i> 10th May 2020</span>
-											<h3> <a href="#">Chemical Engineering
-											Projects For All.</a></h3>
-										</div>
-									</div>
-									<!-- /blog post -->
-									<div class="blog-img-content">
-										<div class="blog-img nioimage_hover">
-											<img src="assets/img/blog/bl3.jpg" alt="">
-										</div>
-										<div class="blog-text headline">
-											<span class="blog-meta"><i class="fas fa-calendar-alt"></i> 10th May 2020</span>
-											<h3> <a href="#">Chemical Engineering
-											Projects For All.</a></h3>
-										</div>
-									</div>
-									<!-- /blog post -->
+							<div class="site-widget headline footer-menu-widget pera-content">
+								<h3 class="widget-title">منتجاتنا</h3>
+								<div class="footer-menu ul-li-block">
+									<ul>
+										<li><a href="#">الأنابيب البلاستيكية</a></li>
+										<li><a href="#">البيوت المحمية</a></li>
+
+									</ul>
 								</div>
 							</div>
 						</div>
+
 						<div class="col-md-3 col-sm-6">
 							<div class="site-widget headline pera-content">
-								<h3 class="widget-title">Our Footprints</h3>
-								<div class="map_bg relative-position">
-									<img src="assets/img/map.png" alt="">
-									<div class="location_marker loc_one">
-										<i class="fas fa-map-marker-alt"></i>
-										<div class="loc_toltip">
-											<img src="assets/img/fv2.png" alt="">
-											New York
-										</div>
-									</div>
-									<div class="location_marker loc_two">
-										<i class="fas fa-map-marker-alt"></i>
-										<div class="loc_toltip">
-											<img src="assets/img/fv2.png" alt="">
-											London
-										</div>
-									</div>
-									<div class="location_marker loc_three">
-										<i class="fas fa-map-marker-alt"></i>
-										<div class="loc_toltip">
-											<img src="assets/img/fv2.png" alt="">
-											Sydney
-										</div>
-									</div>
-									<div class="location_marker loc_four">
-										<i class="fas fa-map-marker-alt"></i>
-										<div class="loc_toltip">
-											<img src="assets/img/fv2.png" alt="">
-											Toronto
-										</div>
-									</div>
-								</div>
+								<h3 class="widget-title">تواصل معنا</h3>
+								<ul class="list-group list-group-flush  p-0">
+									<li class="list-group-item border-top-0"><i class="fas fa-envelope"></i> <span>info@azaitona.com</span></li>
+									<li class="list-group-item"><i class="fas fa-phone"></i> <span dir="ltr">00218 51 2 660 444</span></li>
+									<li class="list-group-item"><i class="fas fa-phone"></i> <span dir="ltr">00218 91 211 6486</span></li>
+									<li class="list-group-item"><i class="fas fa-fax"></i> <span dir="ltr">00218 51 2 628 997</span></li>
+								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="copyright-text text-center">
-				<span>Copyright By@Themexriver -2020</span>
+				<span>الحقوق محفوظه لدي راسنز </span>
 			</div>
 		</footer>
 	<!-- End of footer section
@@ -454,6 +376,77 @@
 		<script src="assets/js/script.js"></script>
 		<script src="assets/js/gmap3.min.js"></script>
 		<script src="http://maps.google.com/maps/api/js?key=AIzaSyC61_QVqt9LAhwFdlQmsNwi5aUJy9B2SyA"></script>
+		<script>
+			const form = document.querySelector("form");
+			const submitBtn = form.querySelector("button");
+			const message = form.querySelector(".message");
+			form.addEventListener("submit", async (e) => {
+			e.preventDefault();
+			const originalText = submitBtn.textContent;
+			submitBtn.textContent = "ارسال...";
+			submitBtn.disabled = true;
+			const formData = new FormData(form);
+			if (!validate(form)) {
+				try {
+				const response = await fetch("mail.php", {
+					method: "POST",
+					body: formData,
+				});
+	
+				const data = await response.json();
+				console.log(data);
+				if (data.success) {
+					message.innerText =
+					data.message ||
+					"شكرا لتواصلك معنا سيتم التواصل معك في اقرب وقت ممكن";
+					message.classList.remove("error-message");
+					message.classList.add("success-message");
+					form.reset();
+				} else {
+					message.innerText =
+					data.message || "خطا اثناء الارسال رجاء حاول مره اخري ";
+					message.classList.add("error-message");
+					message.classList.remove("success-message");
+				}
+				} catch (error) {
+				message.innerText = "خطا اثناء الارسال رجاء حاول مره اخري";
+				console.log(error)
+				message.classList.add("error-message");
+				message.classList.remove("success-message");
+				} finally {
+				submitBtn.textContent = originalText;
+				submitBtn.disabled = false;
+				}
+			}else{
+				submitBtn.textContent = originalText;
+				submitBtn.disabled = false;
+			}
+			});
+	  
+			function validate(form) {
+			  const inputs = [...form.querySelectorAll("input,select,textarea")];
+			  let errors = inputs.map((input) => {
+				if (input.value == "" && input.classList.contains('required')) {
+				  return "هذا الحقل مطلوب";
+				} else if (input.name === "email") {
+				  const regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
+				  return regex.test(input.value) ? "" : "البريد الالكتروني غير صالح";
+				} else {
+				  return "";
+				}
+			  });
+			  let errorsCounter = 0;
+			  const errorMessages = [...form.querySelectorAll(".error")];
+			  errorMessages.map((errormessage, index) => {
+				if (errors[index] != "") {
+				  errorsCounter += 1;
+				}
+	  
+				errormessage.innerText = errors[index];
+			  });
+			  return errorsCounter > 0;
+			}
+		  </script>
 	</body>
 	</html>
 	

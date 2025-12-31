@@ -4039,13 +4039,18 @@ select:visited {
     font-weight: 700;
     margin-bottom: 12px; }
   .quote_form input,
-  .quote_form textarea {
+  .quote_form textarea,
+  .quote_form select
+  {
     width: 100%;
     border: none;
     height: 60px;
     padding: 30px;
-    margin-bottom: 30px;
     background-color: #f7f7f7; }
+    .quote_form select{
+      height: auto;
+      appearance:none;
+    }
     .quote_form input:focus,
     .quote_form textarea:focus {
       border: 1px solid #31401d; }
@@ -4053,6 +4058,14 @@ select:visited {
     height: 220px; }
   .quote_form .contact-info {
     position: relative; }
+    .quote_form .contact-info .error{
+      font-size:12px;
+      color:red;
+      font-style: italic;
+      margin-top:10px;
+      margin-bottom: 30px;
+
+    }
   .quote_form .icon-bg {
     top: 55px;
     right: 30px;
