@@ -654,7 +654,9 @@ select:visited {
   position: fixed;
   width: 100%;
   background-color: #fff; }
-
+.home-2 .main-header.second_header.relative{
+  position: relative;
+}
 .home-2 .main-header.second_header.f-nav .nav-menu-1 .navbar-nav li a {
   padding: 45px 35px 30px; }
 
@@ -840,7 +842,7 @@ select:visited {
 
 .f-nav {
   z-index: 10;
-  position: fixed;
+  position: fixed!important;
   left: 0;
   top: 0;
   width: 100%;
@@ -1691,8 +1693,13 @@ select:visited {
   background-color: #31401d; }
 
 .service_item .service_img {
-  overflow: hidden; }
+  overflow: hidden; 
+  height:100%;
+}
   .service_item .service_img img {
+    height:100%;
+    width:100%;
+    object-fit: cover;
     -webkit-transform: scale(1);
             transform: scale(1);
     -webkit-transition: .4s all ease-in-out;
@@ -4213,17 +4220,17 @@ select:visited {
 /*----------------------------------------------------*/
 .breadcrumb_section {
   background-image: url(../img/background/bbg.jpg);
-  padding: 290px 0px 150px 0px; }
+  padding: 200px 0px 200px 0px; }
   .breadcrumb_section .background-overlay {
     background-color: rgba(0, 9, 25, .8); }
-  .breadcrumb_section:after {
+  /* .breadcrumb_section:after {
     top: 0;
     right: 0;
     content: '';
     width: 30%;
     height: 100%;
     position: absolute;
-    background-color: #bcc2ba; }
+    background-color: #bcc2ba; } */
   .breadcrumb_section .breadcrumb_list {
     z-index: 1;
     position: relative; }
