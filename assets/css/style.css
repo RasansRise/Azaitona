@@ -1664,7 +1664,9 @@ select:visited {
         color: #31401d; }
     .service-section_2 .service_content2 .service_text h2 {
       font-size: 48px;
-      padding: 15px 0px 25px 0; }
+      padding: 15px 0px 25px 0; 
+      text-align: start;
+    }
 
 .service_item .more-btn {
   left: 0;
