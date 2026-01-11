@@ -229,7 +229,7 @@ select:visited {
   font-weight: 700;
   line-height: .8;
   font-family: "Helvetica AR"; }
-  .section-title .title-bg:after {
+  /* .section-title .title-bg:after {
     position: absolute;
     content: '';
     top: 0;
@@ -237,7 +237,7 @@ select:visited {
     background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, .95)), to(white));
     background-image: linear-gradient(to top, rgba(255, 255, 255, .95), white);
     height: 100%;
-    width: 100%; }
+    width: 100%; } */
 
 .section-title .title-head {
   left: 0;
