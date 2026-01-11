@@ -96,7 +96,7 @@ body {
   line-height: 1.55;
   color: #242527;
   font-family: "Helvetica AR";
-  text-align: start;
+  text-align: justify;
   -moz-osx-font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased; }
 
@@ -3963,13 +3963,13 @@ select:visited {
               transform: rotate(360deg); }
   .market_value_section .market_item_right p,
   .market_value_section .market_item_right h3 {
-    text-align: right; }
+    text-align: justify; }
   .market_value_section .market_item_right .market-icon {
     float: right;
     margin-left: 15px; }
   .market_value_section .market_item_left p,
   .market_value_section .market_item_left h3 {
-    text-align: start; }
+    text-align: justify; }
   .market_value_section .market_item_left .market-icon {
     float: left;
     margin-right: 15px; }
