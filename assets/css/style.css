@@ -1654,8 +1654,11 @@ select:visited {
     background-color: #fff;
     -webkit-box-shadow: 0px 16px 32px 0px rgba(195, 195, 195, .3);
             box-shadow: 0px 16px 32px 0px rgba(195, 195, 195, .3); }
-    .service-section_2 .service_content2 .service-icon {
-      margin-bottom: 35px; }
+    /* .service-section_2 .service_content2 .service-icon {
+      margin-bottom: 0px; } */
+    .service-section_2 .service_content2 .service-icon span img{
+      max-width:80px;
+    }
       .service-section_2 .service_content2 .service-icon span {
         font-size: 65px;
         color: #31401d; }
@@ -4234,8 +4237,23 @@ select:visited {
 .breadcrumb_section {
   background-image: url(../img/background/bbg.jpg);
   padding: 200px 0px 200px 0px; }
+  .breadcrumb_section.about{
+    background-image: url(../img/About/Banner.webp);
+  }
+  .breadcrumb_section.clients{
+    background-image: url(../img/Client/Banner.webp);
+  }
+  .breadcrumb_section.contact{
+    background-image: url(../img/Contact/Banner.webp);
+  }
+  .breadcrumb_section.greenhouses{
+    background-image: url(../img/Greenhoueses/Banner.webp);
+  }
+  .breadcrumb_section.plastic-pipes{
+    background-image: url(../img/Plastic-Pipes/Banner.webp);
+  }
   .breadcrumb_section .background-overlay {
-    background-color: rgba(0, 9, 25, .8); }
+    background-color: rgba(0, 9, 25, .5); }
   /* .breadcrumb_section:after {
     top: 0;
     right: 0;
@@ -5578,6 +5596,7 @@ select:visited {
     font-size: 38px; }
   .service-section_2 .service_content2 .service-icon span {
     font-size: 50px; }
+
   .service-section_2 .service_content2 .service-icon {
     margin-bottom: 20px; }
   .service-section_2 {
